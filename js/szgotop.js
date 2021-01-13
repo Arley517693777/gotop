@@ -2,11 +2,11 @@
         //scroll 事件适用于所有可滚动的元素和 window 对象（浏览器窗口）。
         $(window).scroll(function() {
                 var scroHei = $(window).scrollTop();//滚动的高度
-                if (scroHei > 500) {
+                if (scroHei > 250) {
                    $('.back-to-top').css('top','-300px');
                    // $('.back-to-top').fadeIn();
                 } else {                                                
-                    $('.back-to-top').css('top','-1000px');
+                    $('.back-to-top').css('top','-999px');
                     // $('.back-to-top').fadeOut();
                 }
             })
