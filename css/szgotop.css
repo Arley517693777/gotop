@@ -8,8 +8,8 @@
 .back-to-top{
 	cursor: pointer;
     position: fixed;
-    right: 50px;
-    top: -960px;
+    right: 20px;
+    top: -900px;
     z-index: 2;
     width: 70px;
     height: 900px;
