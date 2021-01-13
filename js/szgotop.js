@@ -3,7 +3,7 @@
         $(window).scroll(function() {
                 var scroHei = $(window).scrollTop();//滚动的高度
                 if (scroHei > 250) {
-                   $('.back-to-top').css('top','-300px');
+                   $('.back-to-top').css('top','-200px');
                    // $('.back-to-top').fadeIn();
                 } else {                                                
                     $('.back-to-top').css('top','-999px');
